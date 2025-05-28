@@ -310,8 +310,10 @@ const Index = () => {
                   <Badge variant="outline" className="text-xs">
                     {test.category}
                   </Badge>
-                  <Button size="sm" className="ml-auto">
-                    <Icon name="Play" size={16} />
+                  <Button
+                    className="w-full"
+                    onClick={() => (window.location.href = `/test/${test.id}`)}
+                  >
                     Начать тест
                   </Button>
                 </div>
