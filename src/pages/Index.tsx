@@ -9,6 +9,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import LoginModal from "@/components/LoginModal";
+import RegisterModal from "@/components/RegisterModal";
 
 interface Test {
   id: number;
@@ -18,7 +20,6 @@ interface Test {
   category: string;
   questionsCount: number;
   duration: number;
-  rating: number;
 }
 
 const tests: Test[] = [
